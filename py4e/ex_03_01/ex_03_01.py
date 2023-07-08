@@ -1,8 +1,12 @@
 string_hours = input("Enter Hours: ")
 string_rate = input("Enter Rate: ")
 
-float_hours = float(string_hours)
-float_rate = float(string_rate)
+try:
+    float_hours = float(string_hours)
+    float_rate = float(string_rate)
+except:
+    print('Error, please enter numric number')
+    quit()
 
 if float_hours > 40:
     regular_pay = float_hours * float_rate
