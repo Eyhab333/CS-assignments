@@ -1,5 +1,9 @@
-seconds = int(input("Enter the duration in seconds:\n"))
-hours = seconds // 3600
-minutes = (seconds % 3600) // 60
-remaining_seconds = seconds % 60
-print(f"The duration is: {hours} hours, {minutes} mintes and {remaining_seconds} seconds.")
+try:
+    seconds = int(input("Enter the duration in seconds:\n"))
+    hours = seconds // 3600
+    minutes = (seconds % 3600) // 60
+    remaining_seconds = seconds % 60
+    print(f"The duration is: {hours} hours, {minutes} mintes and {remaining_seconds} seconds.")
+except:
+    print("please enter a numeric input")
+    quit()
