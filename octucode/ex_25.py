@@ -1,0 +1,1 @@
+input("Enter the name of a boo")
