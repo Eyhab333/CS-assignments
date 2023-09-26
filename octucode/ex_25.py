@@ -2,8 +2,9 @@ library = []
 user_book_one =  input("Enter the name of a book you own: ")
 user_book2_maybe =  input("Enter the name of another book you own (or press'Enter' to skip): ")
 library.append(user_book_one)
-library.append(user_book2_maybe)
-print(f"Your Library: {library}")
+if user_book2_maybe:
+  library.append(user_book2_maybe)
+  print(f"Your Library: {library}")
 
 # Enter the name of a book you wish ti have in the future: 
 # Enter the name of another book you wish to have (or press'Enter' to skip):
