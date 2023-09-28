@@ -22,5 +22,5 @@ acquired_book = input("Enter the name of a book from your wishlist that you've a
 # Updated Wishlist:
 
 # Enter the name of a book from your library you wish to donate (or press'Enter' to skip): 
-
+input("Enter the name of a book from your library you wish to donate (or press'Enter' to skip):")
 # Final Library after Donations: 
