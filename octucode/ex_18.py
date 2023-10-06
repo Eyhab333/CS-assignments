@@ -27,7 +27,9 @@ print("""
 
 print("""
 Welcome to my island!
-There are two doors in front of you, a 🆁 🅴 🅳  🅳 🅾 🅾 🆁 and a 🅱 🅻 🆄 🅴  🅳 🅾 🅾 🆁""")     
+There are two doors in front of you, a 🆁 🅴 🅳  🅳 🅾 🅾 🆁 and a 🅱 🅻 🆄 🅴  🅳 🅾 🅾 🆁
+
+""")     
 
 user_choise_doors = input("Which door do you want to open? enter blue or red\n").lower()
 if user_choise_doors == "red":
